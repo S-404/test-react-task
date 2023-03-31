@@ -1,0 +1,14 @@
+.drawer {
+    display: none;
+}
+
+.drawer_opened {
+    display: flex;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.9);
+    padding: 10px;
+    z-index: 1;
+    height: 1000px;
+    width: 200px
+}
+
