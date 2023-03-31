@@ -7,11 +7,11 @@ export const DataActionsTypes = {
     FETCH_DATA_ERROR: 'FETCH_DATA_ERROR'
 }
 
-export const fetchData = () => {
+export const fetchData = ({colorFilter, darkFilter, formFilter}) => {
     return async (dispatch) => {
         try {
             dispatch({type: DataActionsTypes.FETCH_DATA})
-            const res = await DataService.getAllData()
+            const res = await DataService.getFilteredData({colorFilter, darkFilter, formFilter})
             dispatch({type: DataActionsTypes.FETCH_DATA_SUCCESS, value: res.data})
         } catch (err) {
             let errMsg
