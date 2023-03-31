@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .app__header {
+    width: 640px;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .app__shapes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
