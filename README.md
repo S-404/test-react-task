@@ -1,3 +1,7 @@
+## preview
+
+https://s-404.github.io/test-react-task/
+
 # Тестовое задание:
 
 Написать приложение "Круги и квадраты" с использованием React+Redux+Axios.
