@@ -1,0 +1,41 @@
+.shape {
+  width: 128px;
+  height: 128px;
+  margin: 10px;
+
+  &_circle {
+    border-radius: 50%;
+  }
+
+  &_red {
+    background-color: #DB2C2C;
+
+    &.shape_dark {
+      background-color: #7B0A0A;
+    }
+  }
+
+  &_green {
+    background-color: #5CB69B;
+
+    &.shape_dark {
+      background-color: #175744;
+    }
+  }
+
+  &_blue {
+    background-color: #5A7DD6;
+
+    &.shape_dark {
+      background-color: #291A82;
+    }
+  }
+
+  &_yellow {
+    background-color: #DCC655;
+
+    &.shape_dark {
+      background-color: #936409;
+    }
+  }
+}
